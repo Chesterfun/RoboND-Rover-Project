@@ -16,8 +16,8 @@ def decision_step(Rover):
         if Rover.mode == 'forward': 
 
             if len(Rover.nav_angles) >= Rover.intersection:  
-                # If mode is forward, navigable terrain looks good 
-                # and velocity is below max, then throttle 
+                # If mode is forward, navigable terrain is very large, 
+                # then determine the front as a crossroad
                 if Rover.vel < Rover.max_vel:
                     # Set throttle value to throttle setting
                     Rover.throttle = Rover.throttle_set
