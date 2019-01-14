@@ -221,4 +221,4 @@ Mapped| > 40% |  **44.9%**
 Fidelity| > 60% |  **67.5%**
 Rocks| at least **one** | **2**
 
-The video is in "autonomous navigation video" folder.
+The video is in "autonomous_navigation_video" folder.
